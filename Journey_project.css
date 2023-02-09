@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 1160px;
+    margin: 0 auto;
+}
 header {
-    width: 1047.29px;
-    height: 42.41px;
+    width: 1160px;
+    height: 40px;
     /* border: 1px solid red; */
     margin: 47px auto 0;
     display: flex;
@@ -39,4 +47,172 @@ header {
 
 .nav-select {
     border: none;
+}
+
+.hero-section {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    height: 754px;
+}
+
+.hero-right {
+    background-image: url(Images/Traveller3.png);
+    height: 760px;
+    width: 783px;
+    border: red;
+    position: absolute;
+    right: 0;
+}
+
+.hero-left {
+    width: 630px;
+    padding-right: 85px;
+}
+
+.hero-sm-text {
+    color: #DF6951;
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 700px;
+    letter-spacing: -0.04em;
+}
+
+.hero-big-text {
+    font-size: 84px;
+    font-weight: 700px;
+    color: #181E4B;
+    line-height: 69px;
+}
+
+.hero-text {
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5E6282;
+    width: 477px;
+}
+
+.hero-links-btn {
+    /* height: 60px; */
+    /* width: 170px; */
+    padding: 21px 26px;
+    background-color: #F1A501;
+    box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero-play-btn {
+    margin-left: 44px;
+    border: 1px solid red;
+    padding: 21px 26px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.services-section {
+    /* border: 1px solid red; */
+    margin-top: 105px;
+}
+
+.section-small-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #5E6282;
+    text-align: center;
+}
+
+.section-big-heading {
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+    margin-bottom: 33px;
+}
+
+.card {
+    width: 267px;
+    border-radius: 36px;
+    height: 314px;
+    /* border: 1px solid; */
+    padding: 0 42px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 85px;
+    height: 80px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.card-bold-text {
+    margin: 16px o;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gallery {
+    width: 315px;
+    height: 457px;
+    /* border: 1px solid red; */
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.box-img {
+    height: 327px;
+    width: inherit;
+    /* border: 1px solid blue; */
+    overflow: hidden;
+}
+
+.img {
+    position: relative;
+    right: 80px;
+    bottom: 12px;
+    z-index: -1;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text {
+    padding: 27px 20px;
+}
+
+.loc-text {
+    font-size: 18px;
+    color: #5E6282;
+    font-weight: 500;
+}
+
+.duration-text {
+    font-size: 16px;
+    color: #5E6282;
+    padding-top: 19px;
 }

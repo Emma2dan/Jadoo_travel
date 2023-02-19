@@ -12,6 +12,11 @@ main {
     width: 1160px;
     margin: 0 auto;
 }
+
+.hamburger {
+    display: none;
+}
+
 header {
     width: 1160px;
     height: 40px;
@@ -166,12 +171,17 @@ header {
 }
 
 .card-bold-text {
-    margin: 16px o;
+    margin: 16px 0;
     font-size: 20px;
     text-align: center;
 }
 
 .card-img {
+    width: 85px;
+    height: 80px;
+}
+
+.aero {
     width: 85px;
     height: 80px;
 }
@@ -220,12 +230,16 @@ header {
 }
 .left-trip-section {
     width: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .right-trip-section {
     width: 50%;
     overflow: hidden;
+}
+
+.dotted-img {
+    margin-top: 100px;
 }
 
 .trip {
@@ -236,19 +250,19 @@ header {
 
 .trip-img {
     position: relative;
-    bottom: 130px;
-    right: 60px;
+    bottom: 135px;
+    right: 40px;
 }
 
 .triple-section {
     display: flex;
     align-items: center;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
 }
 
 .trip-text {
     margin-left: 21px;
-    width: 380px;
+    width: 327px;
 }
 
 .trip-small-heading {
@@ -259,7 +273,201 @@ header {
 }
 
 .trip-big-heading {
+    text-align: left;
     font-weight: 700;
     font-size: 50px;
+    line-height: 64.5px;
+    color: #14183E;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+.testimonial {
+    display: flex;
+    margin-top: 130px;
+}
+
+.partners {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    margin-top: 50px;
+}
+
+.partner-img {
+    margin-right: 80px;
+    display: inline-block;
+    height: max-content;
+}
+
+.sub-heading {
+    text-align: center;
+    color: #5E6282;
+    font-size: 38px;
+    font-weight: 600;
     line-height: 54px;
+    padding-top: 79px;
+}
+
+.form-box {
+    display: flex;
+    /* align-items: center; */
+    width: 421px;
+    margin: 74px 30px 78px 300px;
+    /* border: 1px solid; */
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.subscribe {
+    background-color: #DFD7F9;
+    border-top-left-radius: 80px;
+    height: 407px;
+    position: relative;
+    z-index: 1;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+}
+
+.font_awa {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    z-index: 10;
+}
+
+.input-box {
+    display: flex;
+    width: 1000px;
+    height: 68px;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* padding-left: 31px; */
+    /* margin-right: 0; */
+}
+
+input {
+    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding-left: 14px;
+    font-size: 17px;
+}
+
+.subscribe-btn {
+    width: 180px;
+    background-color: #FF946D;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-left: 50px;
+    /* position: fixed; */
+    cursor: pointer;
+}
+
+.top-footer {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 187px;
+}
+
+.inner-top-footer {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 120px;
+    margin-right: 70px;
+}
+
+.inner-top-footer-jadoo {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 200px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.bottom-footer {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    padding: 50px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    columns: #5E6282;
+}
+
+.footer-jadoo {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 44px;
+    /* line-height: 66px; */
+    font-weight: 500;
+    columns: #181E4B;
+}
+
+.footer-h5 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 26.15px;
+    font-weight: 700;
+    color: #080809;
+}
+
+.footer-h5-p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color: #5E6282;
+    line-height: 22.4px;
+    display: block;
+}
+
+.inner-top-footer-icons {
+    width: 220px;
+    height: 146px;
+    /* border: 1px solid red; */
+}
+
+.footer-p-discover {
+    font: 22px;
+    font-weight: 500;
+    line-height: 24.9px;
+    color: #5E6282;
+    /* margin-top: 18px; */
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness for Small Mobile Devices */
+@media screen and (max-width: 320px) {
+    nav {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
 }
